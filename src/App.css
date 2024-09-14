@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+html{
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    background-color:
+    hsl(220deg 100% 80%);
+    
+}
+.conatoiner{
+    position: relative;
+    top: 70px;
+   
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+     height: 70vh;
+     
+     background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+     box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25)
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+  
+    gap: 20px;
+   
+ 
+    
+}
+form input{
+   flex-basis: 80%;
+   height: 40px;
+   border-radius: 10px;
+   padding-left: 10px;
+   border: none;
+   box-shadow: 7.1px 14.2px 14.2px hsl(0deg 0% 0% / 0.28);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+}
+form button{
+    flex-basis: 15%;
+    border-radius: 6px;
+    box-shadow: 7.1px 14.2px 14.2px hsl(0deg 0% 0% / 0.28);
+
+}
+.outdiv{
+
+   
+    width: 60%;
+    margin: auto;
+   
+  
+
+}
+.outdiv ul{
+    margin-top: 30px;
+   padding: 0;
+   list-style: none;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.outdiv ul li{
+    color: rgb(15, 15, 15);
+    padding: 10px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #8d38f4 100%);
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 25px;
+   
+    box-shadow: 7.1px 14.2px 14.2px hsl(0deg 0% 0% / 0.28);
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outdiv ul li span{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
 }
